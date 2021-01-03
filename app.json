@@ -1,0 +1,16 @@
+{
+  "name": "plumber_example",
+  "stack": "container",
+  "description": "This is an example Plumber application, which uses virtualstaticvoid/heroku-docker-r for Heroku.",
+  "keywords": [
+    "r",
+    "plumber"
+  ],
+  "repository": "https://github.com/leoluyi/plumber_example",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
