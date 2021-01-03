@@ -1,3 +1,12 @@
+#' @preempt __first__
+#' @get /
+function(req, res) {
+  res$status <- 302
+  res$setHeader("Location", "./__docs__/")
+  res$body <- "Redirecting..."
+  res
+}
+
 #' @get /hello
 #' @serializer html
 function(){

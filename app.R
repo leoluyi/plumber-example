@@ -1,6 +1,7 @@
 library(plumber)
 
 port <- Sys.getenv('PORT')
+message("Plumber port: ", port)
 
 server <- plumb("plumber.R")
 
