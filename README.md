@@ -21,7 +21,7 @@ heroku open
 
 The following paths are provided:
 
-* [`/hello](plumber.R#L2)
+* [`/hello`](plumber.R#L2)
 * [`/echo?msg=MSG`](plumber.R#L10)
 * [`/plot`](plumber.R#L18)
 
