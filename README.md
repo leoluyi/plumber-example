@@ -21,9 +21,9 @@ heroku open
 
 The following paths are provided:
 
-* [`/hello`](plumber.R#L2)
-* [`/echo?msg=MSG`](plumber.R#L10)
-* [`/plot`](plumber.R#L18)
+* [`/hello`](plumber.R#L10)
+* [`/echo?msg=MSG`](plumber.R#L19)
+* [`/plot`](plumber.R#L27)
 
 The OpenAPI (Swagger) user-interface is available via the [`/__docs__/`](app.R#L10) path.
 
